@@ -9,7 +9,7 @@ export default defineConfig({
       name: "federation_consumer",
       remotes: {
         federation_provider:
-          "federation_provider@http://localhost:3000/mf-manifest.json",
+          "federation_provider@/https://mf2-provider.vercel.app/mf-manifest.json",
       },
       shared: ["react", "react-dom"],
     }),
